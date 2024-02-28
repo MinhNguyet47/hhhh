@@ -1,0 +1,35 @@
+.question-container {
+    margin: 20px;
+    padding: 20px;
+  
+}
+
+.question-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.question{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.answer-button {
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.answer-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.answer-button:hover:enabled {
+    background-color: #0056b3;
+}
